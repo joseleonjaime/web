@@ -1,0 +1,152 @@
+
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f9;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    padding-top: 70px; /* Ajusta el espacio superior para la barra de navegación fija */
+}
+
+/* Barra de navegación fija */
+nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #444;
+    padding: 1em 0;
+    text-align: center;
+    z-index: 1000;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 1em;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 0.5em 1em;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #ddd;
+}
+
+/* Encabezado principal */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 2em 1em;
+    text-align: center;
+    margin-top: 1em;
+}
+
+header h1 {
+    font-size: 2.5em;
+    margin-bottom: 0.5em;
+}
+
+header p {
+    font-size: 1.2em;
+    margin-bottom: 1em;
+}
+
+header img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-top: 1em;
+}
+
+/* Sección principal */
+section, article {
+    padding: 2em;
+    margin: 1em auto;
+    max-width: 800px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    font-size: 2em;
+    color: #333;
+    margin-bottom: 0.5em;
+}
+
+p {
+    margin-bottom: 1em;
+    font-size: 1.1em;
+    line-height: 1.8;
+}
+
+/* Estilo para los artículos de detalles */
+article h1 {
+    font-size: 2.2em;
+    color: #333;
+    margin-bottom: 1em;
+}
+
+article ul {
+    list-style-type: disc;
+    padding-left: 1.5em;
+    margin: 1em 0;
+}
+
+article figure {
+    margin: 1em 0;
+    text-align: center;
+}
+
+article img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+article figcaption {
+    font-size: 0.9em;
+    color: #666;
+    margin-top: 0.5em;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1em;
+    margin-top: auto;
+}
+
+footer p {
+    font-size: 0.9em;
+}
+
+footer a {
+    color: #ddd;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: #bbb;
+}
